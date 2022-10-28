@@ -1,0 +1,2 @@
+studentID: 0 fname: Jone lname: Mustajarvi email: jone.mus studentsCourses[name: Ohjelmointi teacher: Jarmo classRoom: 890 , name: Paskanjauhanta teacher: Tomi classRoom: 230 ]
+studentID: 1 fname: Kari lname: Oja email: kari.oja studentsCourses[name: Paskanjauhanta teacher: Tomi classRoom: 230 , name: Ohjelmointi teacher: Jarmo classRoom: 890 ]

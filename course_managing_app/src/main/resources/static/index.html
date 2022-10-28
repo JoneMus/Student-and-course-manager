@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta http-equiv="Content-type" content="application/json"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course manager</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="studentBlock">
+        <h1 class="student">Student</h1>
+        <div class="addStudent">
+            <h2>Add student</h2>
+            <form class="formAS">
+                <input type="text" name="fname" placeholder="firstname">
+                <input type="text" name="lname" placeholder="lastname">
+                <input type="text" name="email" placeholder="email">
+                <button type="submit">OK</button>
+            </form>
+        </div>
+
+        <div class="addStudentToCourse">
+            <h2>Add student to a course</h2>
+            <form class="formASTC">
+                <input type="text" name="email" placeholder="firstname.lastname">
+                <input type="text" name="course" placeholder="Course name">
+                <button type="submit">OK</button>
+            </form>
+        </div>
+
+        <div class="studentByEmail">
+            <h2>Search students by email</h2>
+            <form action="studentByEmail" method="post">
+                <input type="text" name="email" placeholder="firstname.lastname">
+                <button type="submit">OK</button>
+            </form>
+        </div>
+
+        <div class="getStudents">
+            <h2>Get all students</h2>
+            <form action="getStudents" method="get">
+                <button type="submit">Get students</button>
+            </form>
+        </div>
+
+        <div class="deleteStudent">
+            <h2>Delete student by email</h2>
+            <form action="deleteStudent" method="post">
+                <input type="text" name="email" placeholder="firstname.lasname">
+                <button type="submit">OK</button>
+            </form>
+        </div>
+
+        <h1 class="course">Course</h1>
+        <div class="addCourse">
+            <h2>Add course</h2>
+            <form class="formAC">
+                <input type="text" name="name" placeholder="Course name">
+                <input type="text" name="teacher" placeholder="Teacher">
+                <input type="text" name="classRoom" placeholder="Classroom">
+                <button type="submit">OK</button>
+                </form>
+        </div>
+    
+        <div class="getCourse">
+            <h2>Get courses</h2>
+            <form action="getCourses" method="get">
+                <button type="submit">Get courses</button>
+            </form>
+        </div>
+        
+    
+    </div>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
