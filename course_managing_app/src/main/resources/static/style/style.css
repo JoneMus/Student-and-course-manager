@@ -1,0 +1,93 @@
+.studentBlock {
+    display: grid;
+    grid-template-columns: [first] 50px [line2] 80px [line3] auto [col4-start] 80px [five] 50px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+    row-gap: 20px;
+    background-color: cadetblue;
+    padding: 1em;
+}
+
+.studentBlock .addStudent {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: lavender;
+    text-align: center;
+    padding: 1em;
+}
+
+.studentBlock .addStudentToCourse {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    background-color: lavender;
+}
+
+.studentBlock .studentByEmail {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    background-color: lavender;
+    padding: 1em;
+}
+
+.studentBlock .getStudents {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+    background-color: lavender;
+    padding: 1em;
+}
+
+.studentBlock .deleteStudent {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-align: center;
+    background-color: lavender;
+    padding: 1em;
+}
+
+.studentBlock .addCourse {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    text-align: center;
+    background-color: lavender;
+    padding: 1em;
+}
+
+.studentBlock .getCourse {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    text-align: center;
+    background-color: lavender;
+    padding: 1em;
+}
+
+.studentBlock .student {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 0;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+.studentBlock .course {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    text-align: center;
+}
