@@ -1,2 +1,3 @@
-name: Ohjelmointi teacher: Jarmo classRoom: 890
-name: Paskanjauhanta teacher: Tomi classRoom: 230
+name: Ohjelmointi teacher: Kari classRoom: 302 
+name: Web-Ohjelmointi teacher: Jani classRoom: 101 
+name: Fysiikka teacher: Tanja classRoom: 203 

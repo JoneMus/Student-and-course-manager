@@ -23,7 +23,7 @@ public class fileManageService {
     public void addStudentsToFile(Student student) {   
 
         try {     
-        File students = new File("files\\students.txt");
+        File students = new File("course_managing_app\\files\\students.txt");
         FileWriter filewriter = new FileWriter(students, true);
         filewriter.write(String.valueOf(student) + System.lineSeparator());
         filewriter.close();
@@ -36,8 +36,8 @@ public class fileManageService {
       ja tiedostoon tallennetaan Student olion uusi versio*/
     
     public void updateStudentCourses(Student student) {
-        File students = new File("files\\students.txt");
-        File temp = new File("files\\tempFile.txt");
+        File students = new File("course_managing_app\\files\\students.txt");
+        File temp = new File("course_managing_app\\files\\tempFile.txt");
 
         try {
             Scanner fileScanner = new Scanner(students);
@@ -71,7 +71,7 @@ public class fileManageService {
     ja luodaan oliot uudestaan */ 
 
     public List<Student> getStudentsFromFile() {
-    File students = new File("files\\students.txt");
+    File students = new File("course_managing_app\\files\\students.txt");
 
         try {
             System.out.println("Reading students file!");
@@ -147,8 +147,8 @@ public class fileManageService {
     /*Poistetaan opiskelijan tiedot students tiedostosta */
 
     public void deleteStudentFromFile(Student student) {
-        File students = new File("files\\students.txt");
-        File temp = new File("files\\tempFile.txt");
+        File students = new File("course_managing_app\\files\\students.txt");
+        File temp = new File("course_managing_app\\files\\tempFile.txt");
 
         try {
             Scanner fileScanner = new Scanner(students);
@@ -187,7 +187,7 @@ public class fileManageService {
 
     public void addCoursesToFile(Course course) {  
         try {     
-            File courses = new File("files\\courses.txt");
+            File courses = new File("course_managing_app\\files\\courses.txt");
             FileWriter filewriter = new FileWriter(courses, true);
             filewriter.write(String.valueOf(course) + System.lineSeparator());
             filewriter.close();
@@ -200,7 +200,7 @@ public class fileManageService {
      ja luodaan niistö uudet oliot */
 
     public List<Course> getCoursesFromFile() {
-        File courses = new File("files\\courses.txt");
+        File courses = new File("course_managing_app\\files\\courses.txt");
         try {
             System.out.println("Reading courses file!");
             Scanner fileScanner = new Scanner(courses);

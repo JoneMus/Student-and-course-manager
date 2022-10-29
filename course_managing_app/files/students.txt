@@ -1,2 +1,2 @@
-studentID: 0 fname: Jone lname: Mustajarvi email: jone.mus studentsCourses[name: Ohjelmointi teacher: Jarmo classRoom: 890 , name: Paskanjauhanta teacher: Tomi classRoom: 230 ]
-studentID: 1 fname: Kari lname: Oja email: kari.oja studentsCourses[name: Paskanjauhanta teacher: Tomi classRoom: 230 , name: Ohjelmointi teacher: Jarmo classRoom: 890 ]
+studentID: 0 fname: Sami lname: Saari email: sami.saari@opiskelija.fi studentsCourses[name: Fysiikka teacher: Tanja classRoom: 203 , name: Web-Ohjelmointi teacher: Jani classRoom: 101 ]
+studentID: 1 fname: Jonne lname: Mustajärvi email: jonne.mustajarvi studentsCourses[name: Ohjelmointi teacher: Kari classRoom: 302 ]

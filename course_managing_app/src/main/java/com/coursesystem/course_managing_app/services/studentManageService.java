@@ -64,7 +64,6 @@ public class studentManageService {
         Course course = courseService.getCourseByName(courseName);
         student.addCourse(course);
         fileService.updateStudentCourses(student);
-        //course.addStudentsOnCourse(student);
     }
 
 
